@@ -1,0 +1,16 @@
+.text_btn_style{
+    color: orangered !important;
+    margin-top: 75% !important;
+    border-radius: 0 !important;
+    background-color: #fff !important;
+    border: none !important;
+    padding: 0 !important;
+}
+.blog-padding{
+    padding-right: 5rem;
+}
+@media (max-width: 480px) {
+    .all-image-display{
+        visibility:collapse;
+    }
+}

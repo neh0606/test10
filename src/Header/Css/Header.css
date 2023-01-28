@@ -1,0 +1,149 @@
+.head-text {
+    position: relative;
+    width: 80%;
+    top: 50%;
+}
+
+.text-on-image {
+    position: absolute;
+    right: 10%;
+    left: 27%;
+    bottom: 30%;
+    color: aliceblue;
+}
+
+.no-btn-radius {
+    border-radius: 0 !important;
+    background-color: orangered !important;
+    border: none !important;
+}
+
+.circl {
+    width: 40px;
+    height: 40px;
+    background: orangered;
+    -moz-border-radius: 75px;
+    -webkit-border-radius: 75px;
+    border-radius: 32px;
+}
+
+.li_style {
+    list-style-type: none;
+    margin-left: 14rem;
+}
+
+.myreact-icons {
+    color: #fff;
+    height: 2rem;
+}
+
+.btn1-margin {
+    margin-left: 19%;
+    margin-top: 10%;
+}
+
+.btn2-margin {
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.font_color {
+    color: orangered;
+}
+
+.line {
+    height: 20px;
+    width: 100%;
+    display: table;
+}
+
+.line .white {
+    background: #fff;
+    width: 20%;
+    height: 100%;
+    display: table-cell;
+}
+
+.line .orange {
+    background: rgb(219, 102, 47);
+    width: 20%;
+    height: 100%;
+    display: table-cell;
+}
+
+.line .gray {
+    background: rgb(212, 82, 22);
+    width: 20%;
+    height: 100%;
+    display: table-cell;
+}
+
+.line .red {
+    background: rgb(255, 72, 0);
+    width: 20%;
+    height: 100%;
+    display: table-cell;
+}
+
+.line .black {
+    background: rgb(153, 66, 15);
+    width: 20%;
+    height: 100%;
+    display: table-cell;
+}
+
+.logo-head {
+    text-transform: uppercase;
+    color: rgb(9, 9, 121);
+    margin-bottom: 0 !important;
+}
+
+.logo-span {
+    color: orangered;
+    position: absolute;
+    left: 120px;
+}
+
+.logo-para {
+    font-size: large;
+}
+
+.set-logo-m {
+    margin-left: 20%;
+    margin-top: 2%;
+    position: relative;
+}
+
+@media (max-width: 480px) {
+    .contact-desk {
+        display: none !important;
+    }
+
+    .logo-span {
+        color: orangered;
+        position: absolute;
+        left: 92px;
+    }
+
+    .logo-para {
+        font-size: large;
+    }
+
+    .set-logo-m {
+        margin-left: 26%;
+        margin-top: 2%;
+        position: relative;
+    }
+
+    .btn1-margin-mob {
+        margin-left:0% !important;
+        align-items: center !important;
+        margin-top: 10%;
+    }
+
+    .btn2-margin-mob {
+        margin-left:0% !important;
+        align-items: center !important;
+        margin-top: 10%;
+    }
+}

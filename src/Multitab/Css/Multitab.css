@@ -1,0 +1,76 @@
+.parent_img {
+  position: relative;
+  width: 80%;
+  top: 50%;
+}
+
+.div-on-image {
+  position: absolute;
+  /* right: 10%; */
+  left: 5%;
+  bottom: 18%;
+  background-color: #fff;
+  width: 90%;
+  height: 300px;
+}
+
+.text-on-div {
+  position: absolute;
+  left: 20%;
+  bottom: 32%;
+  width: 60%;
+  height: 300px;
+}
+.profile-img{
+  position: absolute;
+  left: 4%;
+  bottom: 5%;
+  width: 50%;
+  height: 250px;
+}
+.div-over-div{
+  position: absolute;
+  left: 33%;
+  bottom: 21%;
+  width: 63%;
+  height: 175px;
+}
+@media (max-width: 480px) {
+  .parent_img_m {
+    position: relative;
+    width: 80%;
+    top: 50%;
+  }
+  
+  .div-on-image-m {
+    position: absolute;
+    /* right: 10%; */
+    left: 5%;
+    bottom: 18%;
+    background-color: #fff;
+    width: 90%;
+    height: 300px;
+  }
+  
+  .text-on-div-m {
+    position: absolute;
+    left: 20%;
+    bottom: 32%;
+    width: 60%;
+    height: 300px;
+  }
+  .profile-img-m {
+    position: absolute;
+    left: 4%;
+    bottom: 5%;
+    width: 50%;
+    height: 250px;
+  }
+  .div-over-div-m {
+    position: absolute;
+    left: 33%;
+    bottom: 21%;
+    width: 63%;
+    height: 175px;
+  }
+}

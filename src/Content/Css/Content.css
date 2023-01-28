@@ -1,0 +1,29 @@
+.triangle_parent{
+    position: relative;
+}
+.triangle {
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(to bottom right, #fff 0%, #fff 50%, orangered 50%, orangered 100%);
+    position: absolute;
+    top: 10%;
+    left: -2%;
+}
+
+/* .head-text {
+    position: relative;
+    width: 80%;
+    top: 50%;
+ } */
+.image_on_triangle {
+    position: absolute;
+    right: 0%;
+    left: 0;
+    bottom: 12%;
+}
+.margin_top_triangle{
+    margin-top: 10%;
+}
+.heading_Col{
+    color: rgb(9, 9, 121);
+}
